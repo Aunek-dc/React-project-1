@@ -1,0 +1,42 @@
+/* Main profile section of persons */
+.profile-set{
+    border: 2px solid black;
+    margin: 5px;
+    border-radius: 15px;
+    background-color: rgb(46, 89, 206);
+    color: rgb(189, 218, 243);
+    padding: 10px;
+}
+.profile-set:hover{
+    background-color: rgb(3, 1, 12);
+}
+/* Image css */
+.profile-set img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: transform 1s;
+}
+.profile-set img:hover{
+    transform: scale(.75);
+}
+.profile-set h3{
+    margin: 0;
+}
+.profile-set .underImage{
+    padding-top: 10px;
+}
+/* Button section */
+.profile-set button{
+    width: 50%;
+    padding: 8px;
+    /* background-color: rgb(8, 45, 124); */
+    border: 0;
+    border-radius: 10px;
+}
+.profile-set button:hover{
+    background-color: crimson;
+    color: antiquewhite;
+    opacity:.5;
+    width: 52%;
+}

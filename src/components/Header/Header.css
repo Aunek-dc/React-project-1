@@ -1,0 +1,36 @@
+/* Main header */
+.header-css{
+    background-color:rgb(9, 41, 129);
+    color: rgb(226, 21, 117);
+    font-size: 30px;
+    width: 100%;
+}
+
+/* Logo section */
+.header-css img{
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+}
+.header-css img:hover{
+    width:130px ;
+    height: 130px;
+}
+/* h1 tag */
+.header-css h1{
+    margin: 0;
+}
+.header-css h1:hover{
+    color:rgb(233, 136, 24);
+}
+/* p tag */
+.header-css p{
+    margin: 10px;
+}
+/* h3 tag */
+.header-css h3{
+    margin-top: 0 ;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    /* margin-bottom: 5px; */
+}

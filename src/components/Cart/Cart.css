@@ -1,0 +1,26 @@
+/* Main side cart */
+.side-cart{
+    background-color: rgb(233, 164, 125);
+    margin-left: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+.side-cart:hover{
+    background-color: rgb(46, 89, 206);
+}
+/* h2 tag */
+.side-cart h2{
+    margin: 0;
+}
+
+/* Names added part */
+.added-names{
+    display: flex;
+    margin-left: 10px;
+    background-color:rgb(233, 164, 125);
+    color: rgb(10, 4, 61);
+    margin-top: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 5px;
+}
